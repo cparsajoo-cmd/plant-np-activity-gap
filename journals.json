@@ -1,0 +1,63 @@
+{
+ "panel_activities": 34988,
+ "panel_documents": 2233,
+ "by_journal_activities": {
+  "J Med Chem": 10089,
+  "Bioorg Med Chem Lett": 5442,
+  "Bioorg Med Chem": 4514,
+  "J Nat Prod": 589,
+  "Eur J Med Chem": 8731,
+  "Nat Chem Biol": 3,
+  "(no journal recorded)": 3070,
+  "ACS Med Chem Lett": 392,
+  "Med Chem Res": 405,
+  "Medchemcomm": 670,
+  "RSC Med Chem": 715,
+  "Nat Commun": 292,
+  "Nature": 2,
+  "Proc Natl Acad Sci U S A": 2,
+  "Antimicrob Agents Chemother": 4,
+  "J Biol Chem": 26,
+  "ChemMedChem": 32,
+  "J Agric Food Chem": 10
+ },
+ "by_journal_papers": {
+  "J Med Chem": 546,
+  "Bioorg Med Chem Lett": 482,
+  "Bioorg Med Chem": 323,
+  "J Nat Prod": 95,
+  "Eur J Med Chem": 533,
+  "Nat Chem Biol": 2,
+  "(no journal recorded)": 85,
+  "ACS Med Chem Lett": 52,
+  "Med Chem Res": 18,
+  "Medchemcomm": 46,
+  "RSC Med Chem": 36,
+  "Nat Commun": 1,
+  "Nature": 2,
+  "Proc Natl Acad Sci U S A": 2,
+  "Antimicrob Agents Chemother": 3,
+  "J Biol Chem": 3,
+  "ChemMedChem": 2,
+  "J Agric Food Chem": 2
+ },
+ "experimental_targets": {
+  "activities": 13843,
+  "documents": 779,
+  "by_journal_activities": {
+   "J Med Chem": 3902,
+   "Bioorg Med Chem Lett": 1490,
+   "Bioorg Med Chem": 1799,
+   "J Nat Prod": 261,
+   "Eur J Med Chem": 4718,
+   "ACS Med Chem Lett": 184,
+   "Med Chem Res": 228,
+   "Medchemcomm": 226,
+   "(no journal recorded)": 684,
+   "RSC Med Chem": 281,
+   "Nature": 1,
+   "Nat Chem Biol": 1,
+   "Nat Commun": 68
+  }
+ }
+}

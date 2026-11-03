@@ -27,6 +27,8 @@ python3 fetch_data.py            # ~380 MB, resumes if interrupted
 python3 01_fetch_panel.py        # queries ChEMBL, a few minutes
 python3 02_map_lotus_chembl.py   # the mapping and the counts
 python3 03_validate.py           # sanity check on a random sample
+python3 04_power.py              # exact power of the validation design
+python3 05_source_journals.py    # which journals the activity data comes from
 ```
 
 `02_map_lotus_chembl.py` writes `results.json` and prints every figure in the
@@ -81,6 +83,36 @@ identifiable as plant natural products in LOTUS:
 
 Counts retrieved from the live ChEMBL API will drift as the database grows;
 the LOTUS figures are fixed by the frozen dataset.
+
+## Where ChEMBL's activity data comes from
+
+ traces every panel activity to its source document and
+every document to its journal. This is a complete census, not a sample.
+
+Reproduced on 3 November 2026: 34,988 activity values, 2,233 distinct source
+documents, 18 distinct journal titles. 8.8 % of activities carry no journal in
+ChEMBL (patents and deposited sets) and are excluded from the shares below.
+
+| Journal | Activities | Share of those with a journal |
+|---|---|---|
+| J Med Chem | 10,089 | 31.6 % |
+| Eur J Med Chem | 8,731 | 27.4 % |
+| Bioorg Med Chem Lett | 5,442 | 17.0 % |
+| Bioorg Med Chem | 4,514 | 14.1 % |
+| RSC Med Chem | 715 | 2.2 % |
+| Medchemcomm | 670 | 2.1 % |
+| J Nat Prod | 589 | 1.8 % |
+| Med Chem Res | 405 | 1.3 % |
+| ACS Med Chem Lett | 392 | 1.2 % |
+| Nat Commun | 292 | 0.9 % |
+| others (6 titles) | 79 | 0.2 % |
+
+Medicinal chemistry journals account for 97.1 % and natural-product journals
+for 1.9 %. Phytochemistry, Journal of Ethnopharmacology, Fitoterapia, Planta
+Medica and Food Chemistry do not appear among the 2,233 source documents.
+
+This says nothing about how much plant enzyme-inhibition work has been
+published; it says which literature ChEMBL curates.
 
 ## What these numbers do and do not show
 
