@@ -1,0 +1,29 @@
+LOTUS rows read:                            709740
+plant structures (Streptophyta):             149845
+distinct connectivity blocks:                97202
+ChEMBL compounds read:                     2897819
+
+plant structures in ChEMBL, exact key:       26292
+plant structures in ChEMBL, connectivity:    52440  (35.0%)
+ChEMBL entries they correspond to:           35943
+
+target                            compounds plant NPs  structures
+Acetylcholinesterase (human)           6247       222         419
+Cyclooxygenase-2 (human)               4522       138         300
+Butyrylcholinesterase (human)          3798        99         194
+Monoamine oxidase A (human)            3258       109         216
+Neutrophil elastase (human)            2534        25          36
+5-Lipoxygenase (human)                 2375       104         217
+Xanthine oxidase (bovine)              1215        44          78
+Aldose reductase (human)                869        80         273
+Tyrosinase (mushroom)                   853        72         167
+Myeloperoxidase (human)                 614         8          10
+
+plant structures with >=1 panel activity:     1465  (1.0% of 149845)
+ChEMBL entries among those:                    720  (2.0% of 35943)
+
+structure-target pairs defined by panel:   1498450
+  with a recorded activity:                   1910
+  with none:                               1496540
+
+written: results.json, data/active_plant_ids.json

@@ -1,0 +1,84 @@
+{
+ "phylum": "Streptophyta",
+ "lotus_rows": 709740,
+ "plant_structures": 149845,
+ "in_chembl_exact": 26292,
+ "in_chembl_connectivity": 52440,
+ "chembl_entries": 35943,
+ "active_structures": 1465,
+ "active_entries": 720,
+ "pairs_total": 1498450,
+ "pairs_with_activity": 1910,
+ "per_target": [
+  {
+   "target": "Acetylcholinesterase (human)",
+   "chembl_id": "CHEMBL220",
+   "compounds": 6247,
+   "plant_np_entries": 222,
+   "plant_np_structures": 419
+  },
+  {
+   "target": "Cyclooxygenase-2 (human)",
+   "chembl_id": "CHEMBL230",
+   "compounds": 4522,
+   "plant_np_entries": 138,
+   "plant_np_structures": 300
+  },
+  {
+   "target": "Butyrylcholinesterase (human)",
+   "chembl_id": "CHEMBL1914",
+   "compounds": 3798,
+   "plant_np_entries": 99,
+   "plant_np_structures": 194
+  },
+  {
+   "target": "Monoamine oxidase A (human)",
+   "chembl_id": "CHEMBL1951",
+   "compounds": 3258,
+   "plant_np_entries": 109,
+   "plant_np_structures": 216
+  },
+  {
+   "target": "Neutrophil elastase (human)",
+   "chembl_id": "CHEMBL248",
+   "compounds": 2534,
+   "plant_np_entries": 25,
+   "plant_np_structures": 36
+  },
+  {
+   "target": "5-Lipoxygenase (human)",
+   "chembl_id": "CHEMBL215",
+   "compounds": 2375,
+   "plant_np_entries": 104,
+   "plant_np_structures": 217
+  },
+  {
+   "target": "Xanthine oxidase (bovine)",
+   "chembl_id": "CHEMBL3649",
+   "compounds": 1215,
+   "plant_np_entries": 44,
+   "plant_np_structures": 78
+  },
+  {
+   "target": "Aldose reductase (human)",
+   "chembl_id": "CHEMBL1900",
+   "compounds": 869,
+   "plant_np_entries": 80,
+   "plant_np_structures": 273
+  },
+  {
+   "target": "Tyrosinase (mushroom)",
+   "chembl_id": "CHEMBL3318",
+   "compounds": 853,
+   "plant_np_entries": 72,
+   "plant_np_structures": 167
+  },
+  {
+   "target": "Myeloperoxidase (human)",
+   "chembl_id": "CHEMBL2439",
+   "compounds": 614,
+   "plant_np_entries": 8,
+   "plant_np_structures": 10
+  }
+ ]
+}
