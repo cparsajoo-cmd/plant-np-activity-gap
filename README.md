@@ -29,6 +29,7 @@ python3 02_map_lotus_chembl.py   # the mapping and the counts
 python3 03_validate.py           # sanity check on a random sample
 python3 04_power.py              # exact power of the validation design
 python3 05_source_journals.py    # which journals the activity data comes from
+python3 06_purchasable.py        # how much of the gap is commercially available
 ```
 
 `02_map_lotus_chembl.py` writes `results.json` and prints every figure in the
@@ -113,6 +114,24 @@ Medica and Food Chemistry do not appear among the 2,233 source documents.
 
 This says nothing about how much plant enzyme-inhibition work has been
 published; it says which literature ChEMBL curates.
+
+## How much of the gap can actually be bought
+
+ joins the LOTUS plant set to MolPort, a compound-sourcing
+aggregator indexed by UniChem, through UniChem's PubChem-to-MolPort whole-source
+mapping. No vendor website is queried.
+
+| Quantity | Value |
+|---|---|
+| Plant (Streptophyta) structures in LOTUS | 149,845 |
+| With a PubChem identifier | 145,813 |
+| Listed by MolPort | 13,627 (9.3 %) |
+| With a recorded panel activity | 1,465 |
+| **Buyable and with no recorded panel activity** | **13,022** |
+
+This is a lower bound. MolPort does not index every supplier, the specialist
+natural-product houses in particular, and a structure LOTUS does not resolve to
+a PubChem identifier cannot be counted at all.
 
 ## What these numbers do and do not show
 
